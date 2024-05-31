@@ -45,7 +45,7 @@ const MainSection = () => {
       </div>
       <div className="relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/Image2.png')" }}>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
-          <div className="scroll-image absolute left-1/2 top-[1%] transform -translate-x-1/2 -translate-y-1/2 w-2/3">
+          <div className="scroll-image absolute left-1/2 top-[1%] transform -translate-x-1/2 -translate-y-1/2 w-2/3 text-center">
             <img src="/images/Image.png" alt="Center Image" className="w-full" />
           </div>
           <div className="scroll-text text-left text-faded-red mt-80">
