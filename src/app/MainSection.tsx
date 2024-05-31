@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 import { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -46,11 +46,11 @@ const MainSection = () => {
       <div className="relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/Image2.png')" }}>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
           <div className="scroll-image absolute left-1/2 top-[1%] transform -translate-x-1/2 -translate-y-1/2 w-2/3 text-center">
-            <img src="/images/Image.png" alt="Center Image" className="w-full" />
+            <Image src="/images/Image.png" alt="Center Image" className="w-full" />
           </div>
           <div className="scroll-text text-left text-faded-red mt-80">
             <h2 className="text-5xl font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
-            <p className="text-2xl mb-4">IT'S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE AND OFFERS MANY FEATURES LIKE:</p>
+            <p className="text-2xl mb-4">IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE AND OFFERS MANY FEATURES LIKE:</p>
             <ul className="list-disc list-inside text-left ml-4 mb-4 text-2xl">
               <li>LOGS MANAGEMENT: CREATE, EDIT, VISUALIZE, AND REMOVE LOGS.</li>
               <li>DATABASE TO SAVE LOGS.</li>
@@ -64,7 +64,7 @@ const MainSection = () => {
               <li>EXTRACT THE FILES.</li>
               <li>EXECUTE THE SETUP.EXE.</li>
               <li>CHOOSE THE INSTALLATION SETTINGS THAT YOU WANT AND INSTALL THE DOOMSDAY LOGS.</li>
-              <li>ACCESS THE INSTALL FOLDER, OPEN THE "DOOMSDAYLOGS.DATABASE\CURRENTDATABASE" FOLDER, OPEN THE PROPERTIES OF THE DATABASES, AND GIVE PERMISSION TO ALL USERS AND ADMIN ACCOUNTS.</li>
+              <li>ACCESS THE INSTALL FOLDER, OPEN THE &quot;DOOMSDAYLOGS.DATABASE\CURRENTDATABASE&quot; FOLDER, OPEN THE PROPERTIES OF THE DATABASES, AND GIVE PERMISSION TO ALL USERS AND ADMIN ACCOUNTS.</li>
               <li>OPEN DOOMSDAY LOGS. TO USE THE MANAGEMENT FEATURES, SET UP THE DLL IN YOUR PROJECT:</li>
               <li>OPEN VISUAL STUDIO AS ADMINISTRATOR.</li>
               <li>REFERENCE THE DLL IN YOUR PROJECT TO SEE THE LOGS OPTIONS IN YOUR CODE.</li>
