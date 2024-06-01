@@ -41,13 +41,13 @@ const MainSection = () => {
     <section className="relative min-h-screen">
       <div className="relative w-full h-[45vh] flex flex-col justify-center items-center bg-red-900">
         <h1 className="text-5xl font-bold mb-4">ARE YOU READY DOOMGUY?</h1>
-        <a href="/files/DoomsdayLogs.Setup.zip" download className="bg-red-600 text-white px-6 py-3 rounded inline-block cursor-pointer z-10">DOWNLOAD</a>
+        <a href="/doomsdaylogs-site/files/DoomsdayLogs.Setup.zip" download className="bg-red-600 text-white px-6 py-3 rounded inline-block cursor-pointer z-10">DOWNLOAD</a>
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-b from-transparent to-black z-0"></div>
       </div>
-      <div className="relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/Image2.png')" }}>
+      <div className="relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/doomsdaylogs-site/images/Image2.png')" }}>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
           <div className="scroll-image absolute left-1/2 top-[1%] transform -translate-x-1/2 -translate-y-1/2 w-2/3 text-center">
-            <Image src="/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
+            <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
           </div>
           <div className="scroll-text text-left text-faded-red mt-80">
             <h2 className="text-5xl font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
@@ -91,6 +91,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
