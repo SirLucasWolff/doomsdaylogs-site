@@ -19,7 +19,7 @@ const Layout = ({ children }: LayoutProps) => {
             alt="Site Icon" 
             width={32} 
             height={32} 
-            className="min-h-screen flex flex-col"
+            className="hidden"
           />
           {children}
         </div>
