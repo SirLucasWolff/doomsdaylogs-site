@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Head>
         <title>Doomsday Logs</title>
-        <link rel="icon" href="/images/icone.png" />
+        <link rel="icon" href="/images/icone.ico" />
       </Head>
       <div>
         <MainSection />

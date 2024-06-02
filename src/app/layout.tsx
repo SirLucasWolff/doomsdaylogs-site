@@ -9,7 +9,7 @@ const Layout = ({ children }: LayoutProps) => {
     <html lang="en">
       <Head>
         <title>Doomsday Logs</title>
-        <link rel="icon" href="/images/icone.png" />
+        <link rel="icon" href="/images/icone.ico" />
       </Head>
       <body>
         <div className="min-h-screen flex flex-col">
