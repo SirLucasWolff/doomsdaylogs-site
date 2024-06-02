@@ -46,7 +46,7 @@ const MainSection = () => {
       </div>
       <div className="relative w-full min-h-screen bg-cover bg-center">
         <Image 
-          src="/doomsdaylogs-site/images/Image2.png" 
+          src="/doomsdaylogs-site/images/Image2.PNG" 
           alt="Background Image" 
           layout="fill" 
           objectFit="cover" 
