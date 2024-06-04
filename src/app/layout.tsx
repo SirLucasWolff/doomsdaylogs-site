@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <html lang="en">
       <Head>
-        <title>Doomsday Logs</title>
+        <title>Doomsday </title>
         <link rel="icon" href="/doomsdaylogs-site/images/icone.ico" />
       </Head>
       <body>
