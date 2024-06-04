@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Doomsday Logs",
   description: "Doomsday Logs Tool",
   icons: {
-    icon: '/images/icone.ico', 
+    icon: '/doomsdaylogs-site/images/icone.ico', 
   }
 };
 
