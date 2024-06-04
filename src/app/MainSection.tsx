@@ -40,8 +40,8 @@ const MainSection = () => {
   return (
     <section className="relative min-h-screen">
       <div className="relative w-full h-[45vh] flex flex-col justify-center items-center bg-red-900">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4 text-center">ARE YOU READY DOOMGUY?</h1>
-        <a href="/doomsdaylogs-site/files/DoomsdayLogs.Setup.zip" download className="bg-red-600 text-white px-4 md:px-6 py-2 md:py-3 rounded inline-block cursor-pointer z-10 text-center">DOWNLOAD</a>
+        <h1 className="text-[5vw] font-bold mb-4 text-center">ARE YOU READY DOOMGUY?</h1>
+        <a href="/doomsdaylogs-site/files/DoomsdayLogs.Setup.zip" download className="bg-red-600 text-white px-4 py-2 rounded inline-block cursor-pointer z-10 text-center">DOWNLOAD</a>
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-b from-transparent to-black z-0"></div>
       </div>
       <div className="relative w-full min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/doomsdaylogs-site/images/Image2.png')" }}>
@@ -57,17 +57,17 @@ const MainSection = () => {
             <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
           </div>
           <div className="scroll-text text-left text-faded-red mt-10 md:mt-80 px-4 md:px-0">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
-            <p className="text-xl md:text-2xl mb-4">IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE AND OFFERS MANY FEATURES LIKE:</p>
-            <ul className="list-disc list-inside text-left ml-4 mb-4 text-xl md:text-2xl">
+            <h2 className="text-[4vw] font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
+            <p className="text-[2.5vw] mb-4">IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE AND OFFERS MANY FEATURES LIKE:</p>
+            <ul className="list-disc list-inside text-left ml-4 mb-4 text-[2.5vw]">
               <li>LOGS MANAGEMENT: CREATE, EDIT, VISUALIZE, AND REMOVE LOGS.</li>
               <li>DATABASE TO SAVE LOGS.</li>
               <li>CHOOSE WHAT TO SAVE ABOUT THE LOG, E.G., ONLY NAME AND DATE.</li>
               <li>PROJECT SELECTION TO WORK WITH SPECIFIC LOGS.</li>
               <li>IA ASSISTANCE USING CHATGPT FOR ERROR LOGS.</li>
             </ul>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">HOW TO INSTALL THE DOOMSDAY LOGS</h2>
-            <ol className="list-decimal list-inside text-left ml-4 text-xl md:text-2xl">
+            <h2 className="text-[4vw] font-bold mb-4">HOW TO INSTALL THE DOOMSDAY LOGS</h2>
+            <ol className="list-decimal list-inside text-left ml-4 text-[2.5vw]">
               <li>DOWNLOAD THE ZIP FOLDER WITH THE FILES.</li>
               <li>EXTRACT THE FILES.</li>
               <li>EXECUTE THE SETUP.EXE.</li>
@@ -89,7 +89,7 @@ const MainSection = () => {
             </ol>
           </div>
           <div className="mt-auto mb-8">
-            <p className="text-xl md:text-2xl text-faded-red mt-4">@SIRLUCASWOLFF</p>
+            <p className="text-[2.5vw] text-faded-red mt-4">@SIRLUCASWOLFF</p>
           </div>
         </div>
       </div>
@@ -98,6 +98,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
