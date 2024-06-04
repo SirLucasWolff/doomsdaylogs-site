@@ -55,11 +55,11 @@ const MainSection = () => {
             className="w-full h-full" 
           />
         </div>
-        <div className="relative w-full min-h-screen flex flex-col justify-center items-center px-6 md:px-0">
+        <div className="relative w-full min-h-screen flex flex-col justify-center items-center">
           <div className="scroll-image absolute left-1/2 top-[20%] md:top-[10%] transform -translate-x-1/2 -translate-y-1/2 w-full md:w-2/3 text-center">
             <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
           </div>
-          <div className="scroll-text text-left text-faded-red mt-10 md:mt-80">
+          <div className="scroll-text text-left text-faded-red mt-10 md:mt-80 ml-8">
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
             <div className="mb-4">
               <p className="text-base md:text-lg lg:text-xl mb-4">
@@ -108,6 +108,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
