@@ -47,7 +47,7 @@ const MainSection = () => {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0 w-full h-full">
           <Image 
-            src="/doomsdaylogs-site/images/Image2.png" 
+            src="/doomsdaylogs-site/images/Image2.PNG" 
             alt="Background Image" 
             layout="fill" 
             objectFit="cover" 
@@ -62,14 +62,14 @@ const MainSection = () => {
           <div className="scroll-text text-left text-faded-red mt-10 md:mt-80 px-4 md:px-0">
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
             <div className="mb-4">
-              <p className="text-lg md:text-xl lg:text-2xl mb-4">
+              <p className="text-base md:text-lg lg:text-xl mb-4">
                 IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE
               </p>
-              <p className="text-lg md:text-xl lg:text-2xl mb-4">
+              <p className="text-base md:text-lg lg:text-xl mb-4">
                 AND OFFERS MANY FEATURES LIKE:
               </p>
             </div>
-            <ul className="list-disc list-inside text-left ml-4 mb-4 text-lg md:text-xl lg:text-2xl">
+            <ul className="list-disc list-inside text-left ml-4 mb-4 text-base md:text-lg lg:text-xl">
               <li>LOGS MANAGEMENT: CREATE, EDIT, VISUALIZE, AND REMOVE LOGS.</li>
               <li>DATABASE TO SAVE LOGS.</li>
               <li>CHOOSE WHAT TO SAVE ABOUT THE LOG, E.G., ONLY NAME AND DATE.</li>
@@ -77,7 +77,7 @@ const MainSection = () => {
               <li>IA ASSISTANCE USING CHATGPT FOR ERROR LOGS.</li>
             </ul>
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">HOW TO INSTALL THE DOOMSDAY LOGS</h2>
-            <ol className="list-decimal list-inside text-left ml-4 text-lg md:text-xl lg:text-2xl">
+            <ol className="list-decimal list-inside text-left ml-4 text-base md:text-lg lg:text-xl">
               <li>DOWNLOAD THE ZIP FOLDER WITH THE FILES.</li>
               <li>EXTRACT THE FILES.</li>
               <li>EXECUTE THE SETUP.EXE.</li>
@@ -99,7 +99,7 @@ const MainSection = () => {
             </ol>
           </div>
           <div className="mt-auto mb-8">
-            <p className="text-lg md:text-xl lg:text-2xl text-faded-red mt-4">@SIRLUCASWOLFF</p>
+            <p className="text-base md:text-lg lg:text-xl text-faded-red mt-4">@SIRLUCASWOLFF</p>
           </div>
         </div>
       </div>
@@ -108,6 +108,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
