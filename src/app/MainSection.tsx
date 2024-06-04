@@ -99,7 +99,7 @@ const MainSection = () => {
             </ol>
           </div>
           <div className="mt-auto mb-8">
-            <p className="text-xl md:text-2xl text-faded-red mt-4"></p>
+            <p className="text-xl md:text-2xl text-faded-red mt-4">@</p>
           </div>
         </div>
       </div>
