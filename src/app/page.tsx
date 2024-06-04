@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Doomsday Logs</title>
+        <title>Doomsda</title>
         <link rel="icon" href="/images/icone.ico" />
       </Head>
       <div>
