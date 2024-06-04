@@ -45,13 +45,13 @@ const MainSection = () => {
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-b from-transparent to-black z-0"></div>
       </div>
       <div className="relative w-full min-h-screen">
-        <div className="absolute inset-0 z-[-1]">
+        <div className="absolute inset-0 w-full h-full">
           <Image 
-            src="/doomsdaylogs-site/images/Image2.PNG" 
+            src="/doomsdaylogs-site/images/Image2.png" 
             alt="Background Image" 
             layout="fill" 
             objectFit="cover" 
-            className="w-full min-h-screen" 
+            className="w-full h-full" 
           />
         </div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
@@ -100,6 +100,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
