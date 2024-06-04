@@ -55,7 +55,7 @@ const MainSection = () => {
             className="w-full h-full" 
           />
         </div>
-        <div className="relative w-full min-h-screen flex flex-col justify-center items-center px-4 md:px-0">
+        <div className="relative w-full min-h-screen flex flex-col justify-center items-center px-6 md:px-0">
           <div className="scroll-image absolute left-1/2 top-[20%] md:top-[10%] transform -translate-x-1/2 -translate-y-1/2 w-full md:w-2/3 text-center">
             <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
           </div>
@@ -78,12 +78,12 @@ const MainSection = () => {
             </ul>
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">HOW TO INSTALL THE DOOMSDAY LOGS</h2>
             <ol className="list-decimal list-inside text-left ml-4 text-base md:text-lg lg:text-xl">
-              <li>DOWNLOAD THE ZIP FOLDER COM OS ARQUIVOS.</li>
-              <li>EXTRAIA OS ARQUIVOS.</li>
-              <li>EXECUTE O SETUP.EXE.</li>
-              <li>ESCOLHA AS CONFIGURAÇÕES DE INSTALAÇÃO QUE VOCÊ DESEJA E INSTALE O DOOMSDAY LOGS.</li>
-              <li>ACESSE A PASTA DE INSTALAÇÃO, ABRA A PASTA &quot;DOOMSDAYLOGS.DATABASE\CURRENTDATABASE&quot;, ABRA AS PROPRIEDADES DOS BANCOS DE DADOS E DÊ PERMISSÃO A TODOS OS USUÁRIOS E CONTAS ADMINISTRATIVAS.</li>
-              <li>ABRA O DOOMSDAY LOGS. PARA USAR OS RECURSOS DE GERENCIAMENTO, CONFIGURE A DLL EM SEU PROJETO:</li>
+              <li>DOWNLOAD THE ZIP FOLDER WITH THE FILES.</li>
+              <li>EXTRACT THE FILES.</li>
+              <li>EXECUTE THE SETUP.EXE.</li>
+              <li>CHOOSE THE INSTALLATION SETTINGS THAT YOU WANT AND INSTALL THE DOOMSDAY LOGS.</li>
+              <li>ACCESS THE INSTALL FOLDER, OPEN THE &quot;DOOMSDAYLOGS.DATABASE\CURRENTDATABASE&quot; FOLDER, OPEN THE PROPERTIES OF THE DATABASES, E DAR PERMISSÃO A TODOS OS USUÁRIOS E CONTAS ADMINISTRATIVAS.</li>
+              <li>OPEN DOOMSDAY LOGS. PARA USAR OS RECURSOS DE GERENCIAMENTO, CONFIGURE A DLL EM SEU PROJETO:</li>
               <li>ABRA O VISUAL STUDIO COMO ADMINISTRADOR.</li>
               <li>REFERENCIE A DLL EM SEU PROJETO PARA VER AS OPÇÕES DE LOGS EM SEU CÓDIGO.</li>
               <li>ABRA O GERENCIADOR DE PACOTES NUGET DO SEU APLICATIVO E INSTALE OS SEGUINTES PACOTES:
@@ -108,6 +108,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
