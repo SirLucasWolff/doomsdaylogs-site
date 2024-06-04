@@ -17,14 +17,6 @@ const Layout = ({ children }: LayoutProps) => {
       </Head>
       <body>
         <div className="min-h-screen flex flex-col">
-          {/* Exibir o ícone como uma imagem na página */}
-          <Image 
-            src="/doomsdaylogs-site/images/icone.ico" 
-            alt="Site Icon" 
-            width={32} 
-            height={32} 
-            className="hidden"
-          />
           {children}
         </div>
       </body>
