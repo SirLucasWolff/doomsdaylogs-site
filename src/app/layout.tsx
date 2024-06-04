@@ -4,6 +4,10 @@ import { ReactNode } from 'react';
 import Head from 'next/head';
 import './globals.css';
 
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
 const Layout = ({ children }: LayoutProps) => {
   return (
     <html lang="en">
@@ -26,10 +30,6 @@ const Layout = ({ children }: LayoutProps) => {
       </body>
     </html>
   );
-};
-
-type LayoutProps = {
-  children: ReactNode;
 };
 
 
