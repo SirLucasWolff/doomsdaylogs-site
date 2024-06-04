@@ -60,13 +60,13 @@ const MainSection = () => {
             <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
           </div>
           <div className="scroll-text text-left text-faded-red mt-10 md:mt-80 px-4 md:px-0">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">    APPLICATION TO MANAGE LOGS</h2>
             <div className="mb-4">
-              <p className="text-base md:text-lg lg:text-xl mb-4">
-                IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE
+              <p className="text-base md:text-lg lg:text-xl mb-4"> 
+                    IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE
               </p>
               <p className="text-base md:text-lg lg:text-xl mb-4">
-                AND OFFERS MANY FEATURES LIKE:
+                    AND OFFERS MANY FEATURES LIKE:
               </p>
             </div>
             <ul className="list-disc list-inside text-left ml-4 mb-4 text-base md:text-lg lg:text-xl">
