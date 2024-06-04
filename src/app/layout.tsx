@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <html lang="en">
       <Head>
-        <title>Doomsday </title>
+        <title>Doomsday Logs</title>
         <link rel="icon" href="/doomsdaylogs-site/images/icone.ico" />
       </Head>
       <body>
@@ -23,7 +23,6 @@ const Layout = ({ children }: LayoutProps) => {
     </html>
   );
 };
-
 
 
 export default Layout;
