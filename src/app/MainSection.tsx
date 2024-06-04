@@ -47,7 +47,7 @@ const MainSection = () => {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0 w-full h-full">
           <Image 
-            src="/doomsdaylogs-site/images/Image2.PNG" 
+            src="/doomsdaylogs-site/images/Image2.png" 
             alt="Background Image" 
             layout="fill" 
             objectFit="cover" 
@@ -61,7 +61,14 @@ const MainSection = () => {
           </div>
           <div className="scroll-text text-left text-faded-red mt-10 md:mt-80 px-4 md:px-0">
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">APPLICATION TO MANAGE LOGS</h2>
-            <p className="text-lg md:text-xl lg:text-2xl mb-4">IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE<br className="block md:hidden" /> AND OFFERS MANY FEATURES LIKE:</p>
+            <div className="mb-4">
+              <p className="text-lg md:text-xl lg:text-2xl mb-4">
+                IT&apos;S VERY USEFUL WHILE YOU ARE WORKING WITH LOGS IN DEBUG MODE
+              </p>
+              <p className="text-lg md:text-xl lg:text-2xl mb-4">
+                AND OFFERS MANY FEATURES LIKE:
+              </p>
+            </div>
             <ul className="list-disc list-inside text-left ml-4 mb-4 text-lg md:text-xl lg:text-2xl">
               <li>LOGS MANAGEMENT: CREATE, EDIT, VISUALIZE, AND REMOVE LOGS.</li>
               <li>DATABASE TO SAVE LOGS.</li>
@@ -101,6 +108,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
