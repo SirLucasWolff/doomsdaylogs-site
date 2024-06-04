@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Doomsday Logs</title>
+        <title>Doomsday</title>
         <link rel="icon" href="/doomsdaylogs-site/images/icone.ico" />
       </Head>
       <Component {...pageProps} />
