@@ -44,17 +44,19 @@ const MainSection = () => {
         <a href="/doomsdaylogs-site/files/DoomsdayLogs.Setup.zip" download className="bg-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded inline-block cursor-pointer z-10 text-center">DOWNLOAD</a>
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-b from-transparent to-black z-0"></div>
       </div>
-      <div className="relative w-full min-h-screen bg-cover bg-center">
-        <Image 
-          src="/doomsdaylogs-site/images/Image2.PNG" 
-          alt="Background Image" 
-          layout="fill" 
-          objectFit="cover" 
-          quality={100} 
-          className="w-full min-h-screen" 
-        />
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
-          <div className="scroll-image absolute left-1/2 top-[10%] transform -translate-x-1/2 -translate-y-1/2 w-full md:w-2/3 text-center">
+      <div className="relative w-full min-h-screen">
+        <div className="absolute inset-0 w-full h-full">
+          <Image 
+            src="/doomsdaylogs-site/images/Image2.PNG" 
+            alt="Background Image" 
+            layout="fill" 
+            objectFit="cover" 
+            quality={100} 
+            className="w-full h-full" 
+          />
+        </div>
+        <div className="relative w-full min-h-screen flex flex-col justify-center items-center">
+          <div className="scroll-image absolute left-1/2 top-[20%] md:top-[10%] transform -translate-x-1/2 -translate-y-1/2 w-full md:w-2/3 text-center">
             <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
           </div>
           <div className="scroll-text text-left text-faded-red mt-10 md:mt-80 px-4 md:px-0">
@@ -73,11 +75,11 @@ const MainSection = () => {
               <li>EXTRACT THE FILES.</li>
               <li>EXECUTE THE SETUP.EXE.</li>
               <li>CHOOSE THE INSTALLATION SETTINGS THAT YOU WANT AND INSTALL THE DOOMSDAY LOGS.</li>
-              <li>ACCESS THE INSTALL FOLDER, OPEN THE &quot;DOOMSDAYLOGS.DATABASE\CURRENTDATABASE&quot; FOLDER, OPEN THE PROPERTIES OF THE DATABASES, AND GIVE PERMISSION TO ALL USERS AND ADMIN ACCOUNTS.</li>
-              <li>OPEN DOOMSDAY LOGS. TO USE THE MANAGEMENT FEATURES, SET UP THE DLL IN YOUR PROJECT:</li>
-              <li>OPEN VISUAL STUDIO AS ADMINISTRATOR.</li>
-              <li>REFERENCE THE DLL IN YOUR PROJECT TO SEE THE LOGS OPTIONS IN YOUR CODE.</li>
-              <li>OPEN THE MANAGE NUGET PACKAGES OF YOUR APPLICATION AND INSTALL THE FOLLOWING PACKAGES:
+              <li>ACCESS THE INSTALL FOLDER, OPEN THE &quot;DOOMSDAYLOGS.DATABASE\CURRENTDATABASE&quot; FOLDER, OPEN THE PROPERTIES OF THE DATABASES, E DAR PERMISSÃO A TODOS OS USUÁRIOS E CONTAS ADMINISTRATIVAS.</li>
+              <li>OPEN DOOMSDAY LOGS. PARA USAR OS RECURSOS DE GERENCIAMENTO, CONFIGURE A DLL EM SEU PROJETO:</li>
+              <li>ABRA O VISUAL STUDIO COMO ADMINISTRADOR.</li>
+              <li>REFERENCIE A DLL EM SEU PROJETO PARA VER AS OPÇÕES DE LOGS EM SEU CÓDIGO.</li>
+              <li>ABRA O GERENCIADOR DE PACOTES NUGET DO SEU APLICATIVO E INSTALE OS SEGUINTES PACOTES:
                 <ul className="list-disc list-inside ml-4">
                   <li>MICROSOFT.BCL.ASYNCINTERFACES</li>
                   <li>MICROSOFT.EXTENSIONS.PRIMITIVES</li>
@@ -86,7 +88,7 @@ const MainSection = () => {
                   <li>SYSTEM.DRAWING.COMMON</li>
                 </ul>
               </li>
-              <li>NOW YOU CAN USE THE TOOL TO MANAGE YOUR LOGS.</li>
+              <li>AGORA VOCÊ PODE USAR A FERRAMENTA PARA GERENCIAR SEUS LOGS.</li>
             </ol>
           </div>
           <div className="mt-auto mb-8">
@@ -99,6 +101,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
