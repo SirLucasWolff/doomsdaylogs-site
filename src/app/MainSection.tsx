@@ -56,7 +56,7 @@ const MainSection = () => {
           />
         </div>
         <div className="relative w-full min-h-screen flex flex-col justify-center items-center">
-          <div className="scroll-image absolute left-1/2 top-[20%] md:top-[10%] transform -translate-x-1/2 -translate-y-1/2 w-full md:w-2/3 text-center">
+          <div className="scroll-image absolute left-1/2 top-[10%] md:top-[10%] transform -translate-x-1/2 -translate-y-1/2 w-full md:w-2/3 text-center">
             <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
           </div>
           <div className="scroll-text text-left text-faded-red mt-10 md:mt-80 ml-8">
