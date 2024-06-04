@@ -44,16 +44,15 @@ const MainSection = () => {
         <a href="/doomsdaylogs-site/files/DoomsdayLogs.Setup.zip" download className="bg-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded inline-block cursor-pointer z-10 text-center">DOWNLOAD</a>
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-b from-transparent to-black z-0"></div>
       </div>
-      <div className="relative w-full min-h-screen">
-        <div className="absolute inset-0 w-full h-full">
-          <Image 
-            src="/doomsdaylogs-site/images/Image2.PNG" 
-            alt="Background Image" 
-            layout="fill" 
-            objectFit="cover" 
-            className="w-full h-full" 
-          />
-        </div>
+      <div className="relative w-full min-h-screen bg-cover bg-center">
+        <Image 
+          src="/doomsdaylogs-site/images/Image2.PNG" 
+          alt="Background Image" 
+          layout="fill" 
+          objectFit="cover" 
+          quality={100} 
+          className="w-full min-h-screen" 
+        />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
           <div className="scroll-image absolute left-1/2 top-[10%] transform -translate-x-1/2 -translate-y-1/2 w-full md:w-2/3 text-center">
             <Image src="/doomsdaylogs-site/images/Image.png" alt="Center Image" width={500} height={300} className="w-full" />
@@ -100,6 +99,7 @@ const MainSection = () => {
 };
 
 export default MainSection;
+
 
 
 
