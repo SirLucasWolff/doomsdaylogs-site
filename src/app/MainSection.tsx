@@ -82,11 +82,11 @@ const MainSection = () => {
               <li>EXTRACT THE FILES.</li>
               <li>EXECUTE THE SETUP.EXE.</li>
               <li>CHOOSE THE INSTALLATION SETTINGS THAT YOU WANT AND INSTALL THE DOOMSDAY LOGS.</li>
-              <li>ACCESS THE INSTALL FOLDER, OPEN THE &quot;DOOMSDAYLOGS.DATABASE\CURRENTDATABASE&quot; FOLDER, OPEN THE PROPERTIES OF THE DATABASES, E DAR PERMISSÃO A TODOS OS USUÁRIOS E CONTAS ADMINISTRATIVAS.</li>
+              <li>ACCESS THE INSTALL FOLDER, OPEN THE &quot;DOOMSDAYLOGS.DATABASE\CURRENTDATABASE&quot; FOLDER, OPEN THE PROPERTIES OF THE DATABASES, AND GIVE PERMISSION TO ALL USERS AND ADMINISTRATIVE ACCOUNTS.</li>
               <li>OPEN DOOMSDAY LOGS. PARA USAR OS RECURSOS DE GERENCIAMENTO, CONFIGURE A DLL EM SEU PROJETO:</li>
-              <li>ABRA O VISUAL STUDIO COMO ADMINISTRADOR.</li>
-              <li>REFERENCIE A DLL EM SEU PROJETO PARA VER AS OPÇÕES DE LOGS EM SEU CÓDIGO.</li>
-              <li>ABRA O GERENCIADOR DE PACOTES NUGET DO SEU APLICATIVO E INSTALE OS SEGUINTES PACOTES:
+              <li>OPEN VISUAL STUDIO AS ADMINISTRATOR.</li>
+              <li>REFERENCE THE DLL IN YOUR PROJECT TO SEE THE LOGGING OPTIONS IN YOUR CODE.</li>
+              <li>OPEN YOUR APPLICATION'S NUGET PACKAGE MANAGER AND INSTALL THE FOLLOWING PACKAGES:
                 <ul className="list-disc list-inside ml-4">
                   <li>MICROSOFT.BCL.ASYNCINTERFACES</li>
                   <li>MICROSOFT.EXTENSIONS.PRIMITIVES</li>
@@ -95,11 +95,8 @@ const MainSection = () => {
                   <li>SYSTEM.DRAWING.COMMON</li>
                 </ul>
               </li>
-              <li>AGORA VOCÊ PODE USAR A FERRAMENTA PARA GERENCIAR SEUS LOGS.</li>
+              <li>NOW YOU CAN USE THE TOOL TO MANAGE YOUR LOGS.</li>
             </ol>
-          </div>
-          <div className="mt-auto mb-8">
-            <p className="text-base md:text-lg lg:text-xl text-faded-red mt-4">@SIRLUCASWOLFF</p>
           </div>
         </div>
       </div>
