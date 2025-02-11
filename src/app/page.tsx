@@ -16,6 +16,8 @@ export default function Home() {
       <Head>
         <title>Doomsda</title>
         <link rel="icon" href="/images/icone.ico" />
+        {/* 🔥 Aqui está o truque para recarregar a página sempre que acessada */}
+        <meta httpEquiv="refresh" content="0;url=/" />
       </Head>
       <div>
         <MainSection />
