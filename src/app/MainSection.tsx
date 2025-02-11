@@ -9,6 +9,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const MainSection = () => {
   useEffect(() => {
+    // 🔄 Verifica se já foi recarregado na sessão
+    if (sessionStorage.getItem("reloaded") === null) {
+      sessionStorage.setItem("reloaded", "true");
+      window.location.reload();
+    }
     gsap.from('.fade-in', { opacity: 0, duration: 1, y: -50, stagger: 0.3 });
 
     gsap.to('.scroll-image', {
