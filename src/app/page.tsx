@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description: "Doomsday Logs Tool",
   icons: {
     icon: '/doomsdaylogs-site/images/icone.ico', 
+  },
+  other: {
+    refresh: "0;url=/",
   }
 };
 
